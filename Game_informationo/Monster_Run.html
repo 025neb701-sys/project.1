@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Run | Aadarsha & Abiral</title>
+    <style>
+        :root {
+            --primary-blue: #1a2a6c;
+            --accent-blue: #4b6cb7;
+            --text-dark: #333;
+            --bg-light: #f4f7f6;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-blue), var(--accent-blue));
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .game-icon {
+            width: 180px;
+            border-radius: 25px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+
+        .section {
+            background: var(--white);
+            margin: 40px 0;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--primary-blue);
+            border-bottom: 2px solid var(--accent-blue);
+            padding-bottom: 10px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .level-card {
+            background: #eef2f3;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 5px solid var(--accent-blue);
+            border-radius: 4px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #ff4b2b;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: transform 0.2s;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+            background: #ff416c;
+        }
+
+        .screenshot {
+            width: 100%;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        .builders-info {
+            background: #1a2a6c;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .disclaimer {
+            font-style: italic;
+            background: #eee;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="mon.png" alt="Monster Run Icon" class="game-icon">
+    <h1>MONSTER RUN</h1>
+    <p>A High-Stakes Platformer Built in 5 Hours</p>
+</header>
+
+<div class="container">
+    
+    <section class="section">
+        <div class="grid">
+            <div>
+                <h2>The Project</h2>
+                <p>Created on <strong>February 29th, 2026</strong> during a 5-hour Hackathon in Kathmandu, <strong>Monster Run</strong> is a testament to quick thinking and core logic. Developed using GameMaker and custom-coded from scratch, this game challenges your reflexes and strategy.</p>
+                <p>Whether you are jumping over deadly gaps or fending off monsters with your blade, the fun never stops. There is no age limit—everyone is welcome to take the challenge!</p>
+                
+<a href="https://025neb701-sys.itch.io/monster-run" class="btn">Play Demo on itch.io</a>
+            </div>
+            <div>
+                <img src="Screenshot 2026-03-01 085843.png" alt="Game Level 1" class="screenshot">
+                <p style="text-align:center; font-size: 0.8em; color: #777;">Early development screenshot of Room 1</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>The Journey: 5 Levels of Peril</h2>
+        <p>Follow our blue hero through a treacherous cave system where the environment is as dangerous as the inhabitants.</p>
+        
+        <div class="level-card"><strong>Room 1: The Entrance</strong> - Walk carefully and jump over gaps. Look for the Red Flag.</div>
+        <div class="level-card"><strong>Room 2: The Spikes</strong> - Survival is key. Use 'R' to Run and 'S' to Walk to navigate the trap floor.</div>
+        <div class="level-card"><strong>Room 3: The Awakening</strong> - Monsters are here. Draw your sword with 'H' and strike with 'A'.</div>
+        <div class="level-card"><strong>Room 4: The Chase</strong> - The monsters have picked up the pace. Combine your running and combat skills!</div>
+        <div class="level-card"><strong>Room 5: Final Escape</strong> - Breaking blocks and endless hordes. Can you find the exit?</div>
+
+        <img src="Screenshot 2026-03-01 085938.png" alt="Game Level 3" class="screenshot" style="margin-top:20px;">
+    </section>
+
+    <section class="section">
+        <h2>Meet the Builders</h2>
+        <div class="builders-info">
+            <p><strong>Aadarsha Nepal & Abiral Khatiwada</strong></p>
+            <p>Current Science Stream students at <strong>St. Xavier's College, Maitighar</strong>. 
+            Passionate about coding, game design, and rapid prototyping.</p>
+        </div>
+        <div style="text-align:center; margin-top: 30px;">
+            <h3>🏆 Win a Reward!</h3>
+            <p>Complete all 5 levels and leave a comment on our itch.io page to be eligible for special gifts!</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="disclaimer">
+            <strong>Disclaimer:</strong> The builders (Aadarsha Nepal & Abiral Khatiwada) are not responsible for any frustration or "hurt" caused by the difficulty of the game. Play at your own risk!
+        </div>
+        <p>Questions or Feedback? Email us: <a href="mailto:nepalaadarsha21@gmail.com">nepalaadarsha21@gmail.com</a></p>
+        <p>&copy; 2026 Monster Run Project</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
